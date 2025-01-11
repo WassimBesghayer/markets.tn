@@ -1,0 +1,88 @@
+ul{list-style: none;}
+a{
+    text-decoration: none !important;
+    color: white !important;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+
+    background-image: 
+        url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp3537550.jpg&f=1&nofb=1&ipt=50b531b765bcd06ef804cc7d78e2fe05f9ddd15f6f57ccb5ce5fcba89fd33e12&ipo=images),
+        linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9)),
+        url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpapercave.com%2Fwp%2Fwp4215501.jpg&f=1&nofb=1&ipt=ce50e69e80d21977579eb6f311c4a05d9d8ab784f617f093ceef09309897d51d&ipo=images),
+        linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+
+    background-position: 
+        0 -170px, 
+        center,
+        110% -170px, 
+        center;
+
+    background-size: 
+        60% 500px, 
+        cover,
+        50% 500px, 
+        cover;
+
+    /* background-blend-mode: screen, normal, multiply; */
+
+    background-repeat: no-repeat;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+}
+nav li{
+    padding: 5px 30px;
+}
+#website-icon{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: 100px;
+}
+#search-bar{
+    height: 60%;
+    width: 50px;
+    position: relative;
+    top: 12px;
+}
+
+/* side bar styling */
+aside{
+    position: relative;
+    top: 80px;
+    left: 0;
+    height: 100%;
+    width: 260px;
+    background-color: aqua;
+}
+
+
+/* footer styling */
+footer svg {color: white;}
+.footer-bg{
+    position: relative;
+    top: 100px;
+    left: 0;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F2593163.png&f=1&nofb=1&ipt=a44922e3195959dba89defbc6343c710913ee5b23ba815a62e687521ad74ad6f&ipo=images);
+    background-size: 100% 300px;
+    background-repeat: no-repeat;
+}
+.block {
+    width: 200px;
+    height: 250px;
+}
+footer h4{
+margin: 2px;
+}
+#social div{
+    padding: 10px;
+}

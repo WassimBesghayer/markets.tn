@@ -1,26 +1,25 @@
 import "./App.css";
+import ProductCard from "./components/ProductCard";
+import Description from "./components/Description";
+import Images from "./components/Images";
+import Items from "./components/Items";
+import Prices from "./components/Prices";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+import NavBarr from "./components/NavBarr";
+import Footer from "./components/Footer";
+import SideBarr from "./components/SideBarr";
 
 function App() {
- 
 
   return (
     <div className="App">
-      <nav>
-        <ul>
-          <li>Blog</li>
-          <li>Deals</li>
-          <li>Clearances</li>
-        </ul>
-      </nav>
-      <aside>
-        <ul>
-          <li>Vehicles</li>
-          <li>Home Appliances</li>
-          <li>Electronics</li>
-          <li>Real Estate</li>
-        </ul>
-      </aside>
+      <NavBarr/>
+      {/* <main>
+        <ProductCard/>
+      </main> */}
+      <SideBarr/>
+      <Footer/>
     </div>
   );
 }
